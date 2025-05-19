@@ -15,7 +15,7 @@ from sklearn.metrics import mean_squared_error
 # Import CSV to Python
 def parser(x):
     return datetime.strptime(x,'%y/%m/%d')
-dataset=pd.read_csv("H:\\purvi\\Research Project\\data\\condition\\condition_1.csv")
+dataset=pd.read_csv("H:\\purvi\\Research Project\\Mental Health Prediction\\condition_1.csv")
 data=dataset.dropna()
 print(data)
 data1=data.loc[:,["date","activity"]]

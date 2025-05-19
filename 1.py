@@ -5,7 +5,7 @@ import numpy as np
 import statsmodels.api as sm
 import matplotlib.pyplot as plt
 plt.style.use('fivethirtyeight')
-dataset=pd.read_csv("H:\\purvi\\Research Project\\Statistical Measures - conditions.csv")
+dataset=pd.read_csv("H:\\purvi\\Research Project\\Mental Health Prediction\\Statistical Measures - conditions.csv")
 data=dataset.dropna()
 print(data)
 plt.figure(figsize=(10,7))
